@@ -1,5 +1,5 @@
 defmodule Cards do
-  def hello do
-    :world
+  def create_check do
+    ["Ace", "Two", "Three"]
   end
 end

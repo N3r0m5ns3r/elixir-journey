@@ -13,5 +13,9 @@ defmodule Cards do
 
   def contains?(deck, card) do
     Enum.member?(deck, card)
+  
+    def contains?(deck, suits) do
+      Enum.member?(deck, suit)
+    end
   end
 end
